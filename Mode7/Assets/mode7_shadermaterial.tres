@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://Shaders/mode7_shader.shader" type="Shader" id=1]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/mode = 0
+shader_param/transform = null
+shader_param/depth = Vector2( 0, -10 )
+shader_param/repeat_x = false
+shader_param/repeat_y = false
